@@ -131,8 +131,7 @@ athena = [
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy-bigquery>=1.4.1,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "tenacity!=8.4.0,<9.0.0",
     "traitlets!=5.2.2,<6.0.0",
@@ -167,8 +166,7 @@ bigquery = [
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy-bigquery>=1.4.1,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
     "wcmatch<11.0.0",
@@ -194,8 +192,7 @@ bigquery-queries = [
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy-bigquery>=1.4.1,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
     "wcmatch<11.0.0",
@@ -236,8 +233,7 @@ clickhouse = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
     "zstd<1.5.6.8",
@@ -257,8 +253,7 @@ clickhouse-usage = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
     "zstd<1.5.6.8",
@@ -282,8 +277,7 @@ cockroachdb = [
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy-cockroachdb<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
     "urllib3>=1.26,<3.0",
@@ -318,8 +312,7 @@ databricks = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
 ]
@@ -340,8 +333,7 @@ datahub = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
 ]
@@ -403,8 +395,7 @@ db2 = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
 ]
@@ -415,8 +406,7 @@ dbt = [
     "more-itertools<11.0.0",
     "patchy==2.8.0",
     "requests<3.0.0",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "urllib3>=1.26,<3.0",
 ]
 
@@ -424,8 +414,7 @@ dbt-cloud = [
     "more-itertools<11.0.0",
     "patchy==2.8.0",
     "requests<3.0.0",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
 ]
 
 debug-recording = [
@@ -473,8 +462,7 @@ doris = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
     "urllib3>=1.26,<3.0",
@@ -494,8 +482,7 @@ dremio = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
 ]
@@ -514,8 +501,7 @@ druid = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
 ]
@@ -593,8 +579,7 @@ fivetran = [
     "snowflake-sqlalchemy>=1.8.0,<2.0.0",
     "sqlalchemy-bigquery>=1.4.1,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "tenacity>=8.0.1,<9.0.0",
     "wcmatch<11.0.0",
 ]
@@ -641,8 +626,7 @@ glue = [
 grafana = [
     "patchy==2.8.0",
     "requests<3.0.0",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
 ]
 
 hana = [
@@ -660,8 +644,7 @@ hana = [
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy-hana>=0.5.0,<5.0.0; platform_machine != 'aarch64' and platform_machine != 'arm64'",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
 ]
@@ -681,8 +664,7 @@ hive = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
 ]
@@ -705,8 +687,7 @@ hive-metastore = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "tenacity>=8.0.1,<9.0.0",
     "traitlets!=5.2.2,<6.0.0",
@@ -752,8 +733,7 @@ kafka-connect = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
 ]
@@ -769,8 +749,7 @@ looker = [
     "looker-sdk>=23.0.0,<26.0.0",
     "patchy==2.8.0",
     "python-liquid<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
 ]
 
 lookml = [
@@ -780,8 +759,7 @@ lookml = [
     "looker-sdk>=23.0.0,<26.0.0",
     "patchy==2.8.0",
     "python-liquid<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
 ]
 
 mariadb = [
@@ -800,8 +778,7 @@ mariadb = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
     "urllib3>=1.26,<3.0",
@@ -810,8 +787,7 @@ mariadb = [
 metabase = [
     "patchy==2.8.0",
     "requests<3.0.0",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
 ]
 
 mlflow = [
@@ -824,8 +800,7 @@ mode = [
     "patchy==2.8.0",
     "python-liquid<2",
     "requests<3.0.0",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "tenacity>=8.0.1,<9.0.0",
 ]
 
@@ -848,8 +823,7 @@ mssql = [
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy-pytds>=0.3,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
 ]
@@ -870,8 +844,7 @@ mssql-odbc = [
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy-pytds>=0.3,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
 ]
@@ -892,8 +865,7 @@ mysql = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
     "urllib3>=1.26,<3.0",
@@ -939,8 +911,7 @@ oracle = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
 ]
@@ -962,8 +933,7 @@ postgres = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
     "urllib3>=1.26,<3.0",
@@ -975,8 +945,7 @@ powerbi = [
     "msal>=1.31.1,<2.0.0",
     "patchy==2.8.0",
     "setuptools<82",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<1.0.0",
     "stopit==1.1.2",
 ]
@@ -989,8 +958,7 @@ powerbi-report-server = [
 preset = [
     "patchy==2.8.0",
     "requests<3.0.0",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
 ]
 
 presto = [
@@ -1007,8 +975,7 @@ presto = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
     "trino[sqlalchemy]>=0.308,<=0.336.0",
@@ -1030,8 +997,7 @@ presto-on-hive = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
 ]
@@ -1043,8 +1009,7 @@ pulsar = [
 qlik-sense = [
     "patchy==2.8.0",
     "requests<3.0.0",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "websocket-client<2.0.0",
 ]
 
@@ -1058,8 +1023,7 @@ redash = [
     "patchy==2.8.0",
     "redash-toolbelt<0.2.0",
     "sql-metadata<3.0.0",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
 ]
 
 redshift = [
@@ -1080,8 +1044,7 @@ redshift = [
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy-redshift>=0.8.3,<=0.8.14",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
     "wcmatch<11.0.0",
@@ -1139,8 +1102,7 @@ salesforce = [
 sigma = [
     "patchy==2.8.0",
     "requests<3.0.0",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
 ]
 
 slack = [
@@ -1168,8 +1130,7 @@ snowflake = [
     "snowflake-connector-python>=4.0.0,<5.0.0",
     "snowflake-sqlalchemy>=1.8.0,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "tenacity>=8.0.1,<9.0.0",
     "traitlets!=5.2.2,<6.0.0",
@@ -1193,8 +1154,7 @@ snowflake-queries = [
     "snowflake-connector-python>=4.0.0,<5.0.0",
     "snowflake-sqlalchemy>=1.8.0,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "tenacity>=8.0.1,<9.0.0",
     "traitlets!=5.2.2,<6.0.0",
@@ -1232,8 +1192,7 @@ snowflake-summary = [
     "snowflake-connector-python>=4.0.0,<5.0.0",
     "snowflake-sqlalchemy>=1.8.0,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "tenacity>=8.0.1,<9.0.0",
     "traitlets!=5.2.2,<6.0.0",
@@ -1245,8 +1204,7 @@ snowplow = [
 
 sql-parser = [
     "patchy==2.8.0",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
 ]
 
 sql-queries = [
@@ -1254,8 +1212,7 @@ sql-queries = [
     "botocore!=1.23.0,<2.0.0",
     "patchy==2.8.0",
     "smart-open[s3]>=5.2.1,<8.0.0",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "urllib3>=1.26,<3.0",
 ]
@@ -1273,8 +1230,7 @@ sqlalchemy = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
 ]
@@ -1292,8 +1248,7 @@ starburst-trino-usage = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
     "trino[sqlalchemy]>=0.308,<=0.336.0",
@@ -1302,8 +1257,7 @@ starburst-trino-usage = [
 superset = [
     "patchy==2.8.0",
     "requests<3.0.0",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
 ]
 
 sync-file-emitter = [
@@ -1312,8 +1266,7 @@ sync-file-emitter = [
 
 tableau = [
     "patchy==2.8.0",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "tableauserverclient>=0.24.0,<=0.40",
 ]
 
@@ -1330,8 +1283,7 @@ teradata = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "teradatasqlalchemy>=17.20.0.0,<=20.0.0.2",
     "traitlets!=5.2.2,<6.0.0",
@@ -1350,8 +1302,7 @@ trino = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
     "trino[sqlalchemy]>=0.308,<=0.336.0",
@@ -1375,8 +1326,7 @@ unity-catalog = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
 ]
@@ -1408,8 +1358,7 @@ vertica = [
     "schwifty<2026.0.0",
     "scipy>=1.7.2,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "traitlets!=5.2.2,<6.0.0",
     "vertica-sqlalchemy-dialect[vertica-python]==0.0.8.2",
@@ -1526,8 +1475,7 @@ all = [
     "sqlalchemy-pytds>=0.3,<2.0.0",
     "sqlalchemy-redshift>=0.8.3,<=0.8.14",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "stopit==1.1.2",
     "tableauserverclient>=0.24.0,<=0.40",
@@ -1699,8 +1647,7 @@ dev = [
     "sqlalchemy-redshift>=0.8.3,<=0.8.14",
     "sqlalchemy2-stubs<0.1.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "stopit==1.1.2",
     "tableauserverclient>=0.24.0,<=0.40",
@@ -1893,8 +1840,7 @@ docs = [
     "sqlalchemy-redshift>=0.8.3,<=0.8.14",
     "sqlalchemy2-stubs<0.1.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "stopit==1.1.2",
     "tableauserverclient>=0.24.0,<=0.40",
@@ -2015,8 +1961,7 @@ integration-tests = [
     "sqlalchemy-hana>=0.5.0,<5.0.0; platform_machine != 'aarch64' and platform_machine != 'arm64'",
     "sqlalchemy-pytds>=0.3,<2.0.0",
     "sqlalchemy>=1.4.39,<2",
-    "sqlglot[c]==29.0.1",
-    "sqlglotc==29.0.1",
+    "sqlglot[c]==30.0.1",
     "sqlparse<0.6.0",
     "tableschema>=1.20.2,<2.0.0",
     "tenacity>=8.0.1,!=8.4.0,<9.0.0",
