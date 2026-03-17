@@ -157,6 +157,9 @@ def _patch_alias_placeholder() -> None:
     # We patch Alias directly to restore pre-v30 behavior. The compiled
     # alias_or_name/output_name methods call the C-level alias slot directly and
     # bypass our Python property, so all three must be patched independently.
+    #
+    # TODO: Remove this patch once https://github.com/tobymao/sqlglot/pull/7310
+    # is merged and we upgrade past the fix.
     from sqlglot.expressions import Alias, Placeholder
 
     _original_alias = Alias.alias
