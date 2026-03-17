@@ -148,11 +148,15 @@ def _patch_unnest_subqueries() -> None:
 
 
 def _patch_alias_placeholder() -> None:
-    # In sqlglot v30, Expr.text() no longer handles Placeholder types (only Identifier,
-    # Literal, Var, Star, Null). This means Alias.alias returns "" when the alias is a
-    # Placeholder (e.g. Snowflake's `PARSE_JSON(...) AS :userInfo` syntax).
-    # We patch Alias directly to preserve the pre-v30 behavior of returning the
-    # placeholder name as the alias string.
+    # In sqlglot v30, Expr.text() was narrowed to only handle Identifier, Literal,
+    # Var, Star, and Null — excluding Placeholder. This broke Alias.alias for
+    # Snowflake's `AS :name` syntax (e.g. `PARSE_JSON(...) AS :userInfo`), where
+    # the Placeholder alias now returns "" instead of "userInfo", causing the column
+    # to be silently dropped from lineage.
+    #
+    # We patch Alias directly to restore pre-v30 behavior. The compiled
+    # alias_or_name/output_name methods call the C-level alias slot directly and
+    # bypass our Python property, so all three must be patched independently.
     from sqlglot.expressions import Alias, Placeholder
 
     _original_alias = Alias.alias
@@ -171,8 +175,6 @@ def _patch_alias_placeholder() -> None:
     def _output_name(self: Alias) -> str:
         return self.alias
 
-    # The compiled alias_or_name/output_name methods call the C-level alias slot
-    # directly, bypassing our Python property — so all three must be patched.
     Alias.alias = property(_alias)  # type: ignore
     Alias.alias_or_name = property(_alias_or_name)  # type: ignore
     Alias.output_name = property(_output_name)  # type: ignore
