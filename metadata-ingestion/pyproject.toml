@@ -2199,7 +2199,7 @@ version = {attr = "datahub._version.__version__"}
 where = ["src"]
 
 [tool.setuptools.package-data]
-datahub = ["py.typed"]
+datahub = ["py.typed", "constraints.txt"]
 "datahub.metadata" = ["schema.avsc"]
 "datahub.metadata.schemas" = ["*.avsc"]
 "datahub.ingestion.source.powerbi" = ["powerbi-lexical-grammar.rule"]
